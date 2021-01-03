@@ -1,0 +1,99 @@
+.landing {
+    height: 100%;
+    width: 100%;
+}
+.topbar {
+    background-color: royalblue;
+    padding: 0 5% 0 5%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.topbar a:first-child {
+    font-family: Pacifico;
+    font-size: 32px;
+}
+.topbar a:last-child {
+    font-size: 20px;
+}
+.main-banner {
+    background-color: royalblue;
+    min-height: 100%;
+}
+.middle-banner {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-desc {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-desc p:first-child {
+    font-size: 6em;
+}
+.product-desc p:nth-child(2) {
+    font-size: 2.5em;
+}
+.feature-link {
+    margin-top: 7%;
+    background-color: wheat;
+    font-size: 2em;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.app-name {
+    font-family: Pacifico;
+}
+.features-section {
+    padding: 3%;
+    background-color: wheat;
+}
+.product-features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+.feature-description {
+    width: 50%;
+}
+.feature-description h3 {
+    font-size: 3em;
+}
+.feature-description p {
+    font-size: 2em;
+}
+.feature-icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.feature-icon span {
+    font-size: 18em;
+    color: royalblue;
+}
+.alternate-elements {
+    flex-direction: row-reverse;
+}
+.get-started {
+    background-color: royalblue;
+    height: 15%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2em;
+}
+.get-started a:hover {
+    padding: 5px;
+    background-color: darkblue;
+}

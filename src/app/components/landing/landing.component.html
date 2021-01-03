@@ -1,0 +1,36 @@
+<div class="landing">
+    <div class="main-banner">
+        <div class="topbar">
+            <a>notify</a>
+            <a>Login</a>
+        </div>
+        <div class="middle-banner">
+            <div class="product-desc">
+                <p>Web notifications made easy</p>
+                <p>Send timely notifications to your web users at ease with <span class="app-name">notify</span></p>
+                <a href="#features" class="feature-link">
+                    See product features 
+                    <span class="material-icons">
+                        keyboard_arrow_down
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div id="features" class="features-section">
+        <div class="product-features" *ngFor="let feature of productFeatures; let i=index" [class.alternate-elements]='i%2==0'>
+            <div class="feature-description">
+                <h3>{{feature?.description}}</h3>
+                <p>{{feature?.short_desc}}</p>
+            </div>
+            <div class="feature-icon">
+                <span class="material-icons">{{feature?.icon}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="get-started">
+        <a>Get started</a>
+    </div>
+</div>

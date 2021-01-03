@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Pacifico;
+    src: url('./assets/fonts/Pacifico.ttf') format("opentype");
+}
+@font-face {
+    font-family: Dosis;
+    src: url('./assets/fonts/Dosis.ttf') format("opentype");
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Dosis;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: royalblue;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: darkblue;
+}
