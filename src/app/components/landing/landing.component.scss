@@ -89,11 +89,12 @@
     width: 100%;
     color: white;
     display: flex;
+    text-decoration: none;
     justify-content: space-evenly;
     align-items: center;
     font-size: 2em;
 }
 .get-started a:hover {
     padding: 5px;
-    background-color: darkblue;
+    background-color: wheat;
 }

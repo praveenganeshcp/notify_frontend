@@ -1,0 +1,30 @@
+<div class="dashboard">
+    <div class="applications">
+        <div class="app-card">
+            <div class="new-app">
+                <span class="material-icons">fiber_new</span>
+            </div>
+        </div>
+        <div *ngFor="let s of app" class="app-card">
+            <div class="app-card-name">
+                <span class="material-icons">dns</span>
+                <span>Application Name</span>
+            </div>
+            <div class="app-card-name">
+                <span class="material-icons">date_range</span>
+                <span>1<sup>st</sup> Jan, 2020</span>
+            </div>
+            <div class="options-row">
+                <div class="app-card-name">
+                    <span class="material-icons">mark_email_read</span>
+                    <span>123456</span>
+                </div>
+                <div class="app-card-name">
+                    <span class="material-icons">settings</span>
+                    <span class="material-icons">power_settings_new</span>
+                    <span class="material-icons">insert_chart_outlined</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

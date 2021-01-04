@@ -6,7 +6,11 @@ import { LandingComponent } from './components/landing/landing.component';
 const routes: Routes = [
     {
         path: '',
-        component: LandingComponent
+        component: LandingComponent,
+    },
+    {
+        path: 'app',
+        loadChildren: () => import('./modules/main/main.module').then(m => m.MainModule)
     }
 ];
 

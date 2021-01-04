@@ -1,0 +1,43 @@
+.dashboard {
+    width: 100%;
+    height: 100%;
+}
+.applications {
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.app-card {
+    width: 20%;
+    height: 30%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    color: royalblue;
+    justify-content: space-evenly;
+}
+.new-app {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.new-app span {
+    font-size: 5em;
+}
+.app-card-name {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+.app-card-name span {
+    margin-right: 8px;
+}
+.options-row {
+    display: flex;
+    justify-content: space-between;
+}
