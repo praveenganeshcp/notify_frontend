@@ -1,0 +1,29 @@
+.account-shell {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.app-description {
+    background-color: royalblue;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 3%;
+}
+.app-description .app-name {
+    font-family: Pacifico;
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+}
+.app-description p:last-child {
+    font-size: 2em;
+}
+.app-outlet {
+    width: 50%;
+    background-color: royalblue;
+}
+

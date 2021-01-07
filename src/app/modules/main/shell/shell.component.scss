@@ -12,9 +12,11 @@
     justify-content: space-between;
     align-items: center;
 }
-.shell-topbar p {
+.shell-topbar a {
     font-family: Pacifico;
     font-size: 1.6em;
+    text-decoration: none;
+    color: white;
 }
 .shell-topbar button {
     padding: 5px;

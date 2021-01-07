@@ -1,0 +1,48 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form-section {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-section p {
+    font-size: 2em;
+    color: white;
+}
+.form-section span {
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+.form-section a {
+    color: white;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+input {
+    width: 50%;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 7px;
+    outline: none;
+}
+.login-form button {
+    width: 50%;
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 7px;
+}
